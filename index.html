@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เปรียบเทียบ OOP: Java, C++, Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>เปรียบเทียบ OOP: Java, C++, Python</h1>
+
+    <h2>ความเหมือน</h2>
+    <ul>
+        <li>ทั้งสามภาษาใช้แนวคิด OOP เช่น คลาสและออบเจ็กต์</li>
+        <li>สนับสนุนการสืบทอด (Inheritance)</li>
+        <li>สนับสนุนการเข้าถึง (Encapsulation)</li>
+        <li>สามารถสร้างโพลีมอร์ฟิซึม (Polymorphism)</li>
+    </ul>
+
+    <h2>ความแตกต่าง</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>คุณสมบัติ</th>
+                <th>Java</th>
+                <th>C++</th>
+                <th>Python</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>การจัดการหน่วยความจำ</td>
+                <td>มีการจัดการหน่วยความจำอัตโนมัติ (Garbage Collection)</td>
+                <td>ต้องจัดการหน่วยความจำเอง</td>
+                <td>มีการจัดการหน่วยความจำอัตโนมัติ (Garbage Collection)</td>
+            </tr>
+            <tr>
+                <td>การสนับสนุนหลายเธรด</td>
+                <td>สนับสนุนผ่าน Java Threads</td>
+                <td>สนับสนุนผ่าน pthreads หรือ std::thread</td>
+                <td>ใช้ threading module</td>
+            </tr>
+            <tr>
+                <td>การประกาศตัวแปร</td>
+                <td>ต้องประกาศชนิดของตัวแปร (Static Typing)</td>
+                <td>ต้องประกาศชนิดของตัวแปร (Static Typing)</td>
+                <td>ไม่ต้องประกาศชนิดของตัวแปร (Dynamic Typing)</td>
+            </tr>
+            <tr>
+                <td>ความซับซ้อนของไวยากรณ์</td>
+                <td>มีไวยากรณ์ที่ชัดเจน แต่ค่อนข้างยาว</td>
+                <td>มีความซับซ้อนในการเขียนและจัดการ</td>
+                <td>มีไวยากรณ์ที่เรียบง่ายและกระชับ</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
